@@ -1,128 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website giới thiệu Liên Chi hội Sinh viên Ký túc xá">
-  <title>Liên Chi hội KTX | Trang chủ</title>
+  <meta name="description" content="Giới thiệu Ký túc xá 135 Trần Hưng Đạo và Liên Chi hội Sinh viên KTX 135 Trần Hưng Đạo - UEH.">
+  <title>Trang chủ | LCH SV KTX 135 Trần Hưng Đạo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html">
-        <div class="logo-placeholder">LOGO</div>
-        <div>
-          <strong>LIÊN CHI HỘI KTX</strong>
-          <span>Kết nối • Đồng hành • Phát triển</span>
-        </div>
-      </a>
+<a class="skip-link" href="#main">Đi đến nội dung chính</a>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Trang chủ LCH SV KTX 135">
+      <div class="brand-logo"><img src="assets/images/ktx-logo.jpg" alt="Logo KTX"></div>
+      <div class="brand-copy"><strong>LCH SV KTX 135 TRẦN HƯNG ĐẠO</strong><span>Đại học Kinh tế TP. Hồ Chí Minh</span></div>
+    </a>
+    <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+    <nav><ul class="nav-menu">
+      <li><a class="active" href="index.html">Trang chủ</a></li>
+      <li><a href="departments.html">Về chúng tôi</a></li>
+      <li><a href="programs.html">Chương trình</a></li>
+    </ul></nav>
+  </div>
+</header>
 
-      <button class="menu-toggle" aria-label="Mở menu">☰</button>
-
-      <nav class="main-nav">
-        <a class="active" href="index.html">Trang chủ</a>
-        <a href="organization.html">Cơ cấu tổ chức</a>
-        <a href="activities.html">Hoạt động</a>
-        <a href="contact.html">Liên hệ</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">CHÀO MỪNG TÂN SINH VIÊN</p>
-          <h1>Liên Chi hội Sinh viên<br>Ký túc xá</h1>
-          <p class="hero-text">
-            Nơi kết nối sinh viên, hỗ trợ đời sống ký túc xá và tạo nên những
-            hoạt động ý nghĩa trong suốt hành trình đại học.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="organization.html">Khám phá cơ cấu</a>
-            <a class="btn btn-secondary" href="#about">Tìm hiểu thêm</a>
-          </div>
-        </div>
-
-        <div class="hero-card">
-          <div class="hero-logo">LOGO</div>
-          <p>Thay logo chính thức tại khu vực này</p>
-          <small>Gợi ý: ảnh PNG nền trong suốt</small>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">VỀ CHÚNG MÌNH</p>
-          <h2>Đồng hành cùng sinh viên tại Ký túc xá</h2>
-          <p>
-            Liên Chi hội là cầu nối giữa sinh viên và các hoạt động phong trào,
-            tình nguyện, truyền thông và xây dựng tổ chức tại Ký túc xá.
-          </p>
-        </div>
-
-        <div class="feature-grid">
-          <article class="feature-card">
-            <span>01</span>
-            <h3>Kết nối</h3>
-            <p>Tạo môi trường gần gũi để sinh viên làm quen, giao lưu và hỗ trợ nhau.</p>
-          </article>
-          <article class="feature-card">
-            <span>02</span>
-            <h3>Đồng hành</h3>
-            <p>Hỗ trợ sinh viên tiếp cận thông tin và tham gia hoạt động tại Ký túc xá.</p>
-          </article>
-          <article class="feature-card">
-            <span>03</span>
-            <h3>Phát triển</h3>
-            <p>Tạo cơ hội rèn luyện kỹ năng, tinh thần tập thể và trách nhiệm cộng đồng.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-soft">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">CƠ CẤU</p>
-          <h2>Một tập thể – nhiều vai trò</h2>
-        </div>
-
-        <div class="mini-org">
-          <div class="org-box org-main">Liên Chi hội trưởng</div>
-          <div class="org-line"></div>
-          <div class="org-box">Liên Chi hội phó</div>
-          <div class="org-line"></div>
-          <div class="org-row">
-            <div class="org-box">Ban Truyền thông</div>
-            <div class="org-box">Ban Phong trào Tình nguyện</div>
-            <div class="org-box">Ban Tổ chức Xây dựng</div>
-          </div>
-        </div>
-
-        <div class="center">
-          <a class="text-link" href="organization.html">Xem chi tiết cơ cấu →</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
+<main id="main">
+  <section class="hero">
+    <div class="container hero-grid">
       <div>
-        <strong>LIÊN CHI HỘI KTX</strong>
-        <p>Kết nối • Đồng hành • Phát triển</p>
+        <div class="kicker">Ký túc xá 135 Trần Hưng Đạo • UEH</div>
+        <h1>Mái nhà chung của những <em>UEHers năng động.</em></h1>
+        <p class="lead">Nơi sinh viên nội trú học tập, sinh hoạt, kết nối và cùng nhau tạo nên những trải nghiệm đáng nhớ trong hành trình đại học.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="departments.html">Khám phá các ban</a>
+          <a class="btn btn-secondary" href="programs.html">Xem chương trình</a>
+        </div>
       </div>
-      <div>
-        <p>© 2026 Liên Chi hội KTX</p>
-        <p>Website dành cho mục đích giới thiệu thông tin.</p>
+      <div class="hero-media">
+        <img src="assets/images/home-main.jpg" alt="Tập thể Liên Chi hội Sinh viên KTX 135 Trần Hưng Đạo">
+        <div class="hero-badge"><strong>Liên Chi hội Sinh viên KTX 135</strong><span>Đồng hành • Kết nối • Phát triển</span></div>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="section-sm">
+    <div class="container grid-2">
+      <article class="card info-card">
+        <div class="label">Ký túc xá 135 Trần Hưng Đạo</div>
+        <h3>Không gian nội trú văn minh, hiện đại</h3>
+        <p>Ký túc xá 135 Trần Hưng Đạo trực thuộc Ban Chăm sóc người học - Đại học Kinh tế TP. Hồ Chí Minh (UEH). Hoạt động với phương châm <strong>“Người học là trung tâm”</strong>, ký túc xá hướng đến xây dựng một cộng đồng nội trú văn minh, hiện đại, nơi sinh viên có thể học tập, sinh hoạt và phát triển toàn diện.</p>
+        <p>Tọa lạc tại <strong>135 Trần Hưng Đạo, Phường Cầu Ông Lãnh, TP. Hồ Chí Minh</strong>, ký túc xá có <strong>90 phòng</strong>, sức chứa <strong>765 sinh viên</strong> cùng các tiện ích phục vụ nhu cầu sinh hoạt và học tập của sinh viên nội trú UEH.</p>
+      </article>
+      <article class="card info-card">
+        <div class="label">Liên Chi hội Sinh viên</div>
+        <h3>Người bạn đồng hành của sinh viên nội trú</h3>
+        <p>Liên Chi hội Sinh viên Ký túc xá 135 Trần Hưng Đạo là đơn vị trực thuộc Hội Sinh viên Đại học Kinh tế TP. Hồ Chí Minh, được thành lập với mục đích hỗ trợ, chăm lo và đồng hành cùng sinh viên nội trú trong suốt quá trình học tập, rèn luyện và sinh hoạt.</p>
+        <p>Trải qua gần <strong>31 năm hình thành và phát triển</strong>, Liên Chi hội không ngừng tạo nên các hoạt động văn hóa, thể thao, học thuật và tình nguyện, góp phần xây dựng một môi trường sống năng động, gần gũi và đầy cảm hứng.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <h2 class="section-title">Dấu ấn hoạt động</h2>
+        <p class="section-subtitle">Một cộng đồng sinh viên năng động với nhiều cơ hội để tham gia, trải nghiệm và phát triển.</p>
+        <div class="accent-line"></div>
+      </div>
+      <div class="stats">
+        <div class="card stat"><div class="stat-number">20+</div><div class="stat-label">Chương trình được tổ chức định kỳ hằng năm</div></div>
+        <div class="card stat"><div class="stat-number">50+</div><div class="stat-label">Cộng tác viên và thành viên hoạt động</div></div>
+        <div class="card stat"><div class="stat-number">01</div><div class="stat-label">CLB trực thuộc: D135FC - CLB Bóng đá KTX 135 Trần Hưng Đạo</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container home-gallery">
+      <div class="card"><img src="assets/images/home-secondary.jpg" alt="Tập thể Liên Chi hội Sinh viên KTX 135 tạo dáng"></div>
+      <div class="card quote-box">
+        <div class="kicker">Tinh thần 135</div>
+        <div class="big">Một tập thể - nhiều cá tính - cùng chung tinh thần cống hiến.</div>
+        <p>Từ những hoạt động nội bộ đến các chiến dịch lớn, mỗi thành viên đều có cơ hội học hỏi, kết nối và góp phần xây dựng mái nhà chung KTX 135.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="departments.html">Gặp gỡ các ban</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-inner">
+  <div class="footer-brand"><div class="footer-logo"><img src="assets/images/ktx-logo.jpg" alt="Logo KTX"></div><span>© <span data-year></span> LCH SV KTX 135 Trần Hưng Đạo</span></div>
+  <div class="footer-links"><a href="index.html">Trang chủ</a><a href="departments.html">Về chúng tôi</a><a href="programs.html">Chương trình</a></div>
+</div></footer>
+<button class="to-top" aria-label="Lên đầu trang">↑</button>
+<script src="script.js"></script>
 </body>
 </html>
