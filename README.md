@@ -14,3 +14,8 @@
 3. Vì GitHub upload **không tự xóa file cũ**, nếu repo vẫn còn file cũ không cần dùng thì có thể xóa thủ công trên GitHub.
 4. Đã bổ sung sẵn `activities.html`, `organization.html`, `contact.html` dạng trang chuyển hướng để tránh lỗi nếu các file cũ vẫn còn tồn tại trong repo.
 5. Website dùng `UTF-8` và font hệ thống `Times New Roman`, không phụ thuộc font ngoài nên sẽ không lỗi font tiếng Việt.
+
+## Bản v7
+- Trang **Về chúng tôi** dùng thêm các ảnh gốc người dùng đã cung cấp cho từng ban.
+- Ảnh được bố trí chồng lớp trên/dưới để lấp khoảng trống và tạo cảm giác tự nhiên hơn.
+- Tất cả ảnh dùng `object-fit: contain` / chiều cao tự động để không crop mất người.
