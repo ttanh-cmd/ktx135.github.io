@@ -611,3 +611,15 @@ img{display:block;max-width:100%}
   .photo-story .quote-box .big{white-space:normal;font-size:1.45rem}
   .internal-grid{grid-template-columns:1fr}
 }
+
+
+/* ===== V17 final refinements ===== */
+.intro-org-label{
+  text-transform:none !important;
+  white-space:nowrap;
+  font-size:clamp(.76rem,1vw,.92rem) !important;
+  letter-spacing:0 !important;
+}
+@media(max-width:900px){
+  .intro-org-label{white-space:normal;}
+}
